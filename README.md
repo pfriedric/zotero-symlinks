@@ -2,6 +2,8 @@
 
 Create linked Zotero collections that appear in multiple places and stay in sync.
 
+**NOTE: this is highly experimental! Back up your library before using it.** 
+
 ## What it does
 
 This plugin lets you create a **mirror collection** under another parent collection. The linked collections share the same items:
