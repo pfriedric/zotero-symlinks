@@ -13,34 +13,17 @@ This plugin lets you create a **mirror collection** under another parent collect
 - explicit deletion is supported through a safe context-menu action:
   `Remove Selected Item(s) from Linked Collections`
 
-## Install from source
+## Installation
 
-### Option 1: Temporary install for development
+Get the current release `.xpi`, install via Zotero->tools->plugins.
 
-1. Clone or download this repository.
-2. Zip the extension contents.
-3. Rename the archive from `.zip` to `.xpi`.
-4. In Zotero, install the `.xpi` as an add-on.
-
-### Option 2: Build with the included script
-
-On macOS or Linux:
+**Optionally:** Clone or download the repo. Then, on macOS or Linux:
 
 ```bash
 bash scripts/package.sh
 ```
 
-That creates a file in `dist/`.
-
-## Repository layout
-
-```text
-bootstrap.js
-linked-collections.js
-manifest.json
-locale/en-US/linked-collections.ftl
-scripts/package.sh
-```
+That creates a `.xpi` file in `dist/`. Install this via Zotero->tools->plugins.
 
 ## Usage
 
