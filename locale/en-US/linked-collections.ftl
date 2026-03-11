@@ -1,0 +1,6 @@
+linked-collections-menuitem-link =
+    .label = Link Collection Here…
+linked-collections-menuitem-unlink =
+    .label = Unlink This Collection Mirror
+linked-collections-menuitem-manage =
+    .label = Manage Linked Collections…

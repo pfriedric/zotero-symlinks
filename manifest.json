@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Zotero Linked Collections",
+  "version": "1.1.1",
+  "description": "Create symlinked (aliased) subcollections that appear in multiple parent collections and stay in sync.",
+  "author": "Paul Friedrich",
+  "applications": {
+    "zotero": {
+      "id": "linked-collections@zotero-plugin.org",
+      "update_url": "https://example.com/updates.json",
+      "strict_min_version": "6.999",
+      "strict_max_version": "7.*"
+    }
+  }
+}
